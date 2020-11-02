@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"z_deltek_mdx",
+	"Code@Code.link":"z_deltek_mdx.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

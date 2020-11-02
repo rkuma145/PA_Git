@@ -1,0 +1,84 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#==========================================
+# Test TI
+#==========================================
+
+#=========  Declare global variables ============
+strCub = parCub ;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#=========  Declare data variables ============
+strYear = parYear;
+strVersion = parVersion;
+strCurrency = 'Local';
+strEntity = 'A';
+strCostEl = '9999';
+
+strCostCe = vcc;
+
+strMeasure = 'Cost';
+
+strPlant =  'abc';
+
+strDpt = 'zzz';
+               
+
+strValue = vwtg001;
+CELLINCREMENTN(strValue,strCub,strYear,'01',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);a
+
+strValue = vwtg002;
+CELLINCREMENTN(strValue,strCub,strYear,'02',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);b
+
+strValue = vwtg003;
+CELLINCREMENTN(strValue,strCub,strYear,'03',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);c
+
+strValue = vwtg004;
+CELLINCREMENTN(strValue,strCub,strYear,'04',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);def
+
+strValue = vwtg005;
+#CELLINCREMENTN(strValue,strCub,strYear,'05',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v
+
+CELLINCREMENTN(strValue,strCub,strYear,'05',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v
+strValue = vwtg006;
+#CELLINCREMENTN(strValue,strCub,strYear,'06',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);sssdddd
+
+CELLINCREMENTN(strValue,strCub,strYear,'06',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);sssdddd
+
+strValue = vwtg007;
+CELLINCREMENTN(strValue,strCub,strYear,'07',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);dvdvdv
+v
+strValue = vwtg008;
+CELLINCREMENTN(strValue,strCub,strYear,'08',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);dvdvdv
+v
+strValue = vwtg009;
+CELLINCREMENTN(strValue,strCub,strYear,'09',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);qwebnbmm
+v
+strValue = vwtg010;
+CELLINCREMENTN(strValue,strCub,strYear,'10',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);c
+
+strValue = vwtg011;
+CELLINCREMENTN(strValue,strCub,strYear,'11',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);v
+
+strValue = vwtg012;
+CELLINCREMENTN(strValue,strCub,strYear,'12',strVersion,strCurrency,strEntity,strPlant,strDpt,strCostEl,strCostCe,strMeasure);
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

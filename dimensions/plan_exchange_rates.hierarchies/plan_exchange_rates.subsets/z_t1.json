@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"z_t1",
+	"Expression":"TM1SubsetAll([plan_exchange_rates])"
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"z_scott_hierarchy",
+	"Code@Code.link":"z_scott_hierarchy.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

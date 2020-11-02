@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"z_sub",
+	"Expression":"TM1SubsetAll([z_testdim])"
+}

@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"dim1",
+	"Elements":
+	[
+		{
+			"Name":"ele1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ele2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ele3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ele1_1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ele2_1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ele3_1",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"z_createdim",
+	"Code@Code.link":"z_createdim.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

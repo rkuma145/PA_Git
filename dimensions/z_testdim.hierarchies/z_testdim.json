@@ -1,0 +1,15 @@
+{
+	"@type":"Hierarchy",
+	"Name":"z_testdim",
+	"Elements":
+	[
+		{
+			"Name":"z,Netherlands",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"z_testdim.subsets/z_sub.json"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"@type":"Dimension",
+	"Name":"plan_chart_of_accounts",
+	"AllLeavesHierarchyName":"Leaves",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('plan_chart_of_accounts')/Hierarchies('plan_chart_of_accounts')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"plan_chart_of_accounts.hierarchies/plan_chart_of_accounts.json",
+		"plan_chart_of_accounts.hierarchies/scott_hier.json",
+		"plan_chart_of_accounts.hierarchies/scott_hier1.json",
+		"plan_chart_of_accounts.hierarchies/scott_hier2.json",
+		"plan_chart_of_accounts.hierarchies/scott_hier3.json"
+	]
+}

@@ -1,0 +1,49 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#HierarchyCreate(DimName, HierName);
+
+#S1='
+
+HierarchyCreate('plan_chart_of_accounts', 'scott_hier3');
+
+HierarchyTopElementInsert('plan_chart_of_accounts','scott_hier3','','Revenue Total');
+
+HierarchyElementInsert('plan_chart_of_accounts', 'scott_hier3', '', 'plan_chart_of_accounts:Revenue', 'C');
+
+HierarchyElementInsert('plan_chart_of_accounts', 'scott_hier3', '', 'plan_chart_of_accounts:COS', 'C');
+
+HierarchyElementComponentAdd('plan_chart_of_accounts', 'scott_hier3','plan_chart_of_accounts:COS','plan_chart_of_accounts:Operating Expense', 0);
+
+
+
+#HierarchyElementComponentAdd('plan_chart_of_accounts', 'scott_hier','Revenue Total','COS', 0);
+
+#HierarchyElementComponentAdd('plan_chart_of_accounts', 'scott_hier','COS','scott_ele', 0);
+
+
+
+
+
+
+
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

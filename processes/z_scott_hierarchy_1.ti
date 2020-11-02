@@ -1,0 +1,76 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+
+#######################################
+#Prolog
+
+sDim = 'plan_chart_of_accounts';
+sMainTop = 'Revenue Total';
+sHier = 'Revenue Review';
+
+If( HierarchyExists( sDim, sHier ) = 0 );
+HierarchyCreate( sDim, sHier );
+HierarchySortOrder( sDim, sHier, 'ByName', 'Ascending', 'ByHierarchy', 'Ascending' );
+Else;
+HierarchyDeleteAllElements( sDim, sHier );
+EndIf;
+## Level 0 (Reverse)
+HierarchyTopElementInsert( sDim, sHier, '', sMainTop );
+
+## Level 1 (Reverse)
+sCon = sMainTop;
+sEle = 'Revenue';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'C' );
+## Show but do not include in total.
+sEle = 'COS';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'C' );
+#HierarchyElementComponentDelete( sDim, sHier, sCon, sEle );
+## --- This next line generates an error.
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 0 );
+## Show but do not include in total.
+sEle = 'Operating Expense';
+#HierarchyElementInsert( sDim, sHier, '', sEle, 'C' );
+#HierarchyElementComponentDelete( sDim, sHier, sCon, sEle );
+## --- This next line generates an error. I try to implicitly add the consolidation and it fails to add at all.
+
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 0 );
+
+sCon = 'Revenue';
+sEle = '41101';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'N' );
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 1 );
+sEle = '42201';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'N' );
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 1 );
+
+
+sCon = 'COS';
+sEle = '51001';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'N' );
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 1 );
+
+
+sCon = 'Operating Expense';
+sEle = '61010';
+HierarchyElementInsert( sDim, sHier, '', sEle, 'N' );
+HierarchyElementComponentAdd( sDim, sHier, sCon, sEle, 1 );
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

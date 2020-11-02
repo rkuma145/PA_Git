@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"z_mdx_view",
+	"Code@Code.link":"z_mdx_view.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

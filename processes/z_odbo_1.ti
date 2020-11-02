@@ -1,0 +1,32 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+ret_code=EXECUTEPROCESS('z_odbo_1_dim1');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+ret_code=EXECUTEPROCESS('z_odbo_1_dim2');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+OldCubeLogChanges = CUBEGETLOGCHANGES('cube1');
+CUBESETLOGCHANGES('cube1', 0);
+#****End: Generated Statements****
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+IF (VALUE_IS_STRING=1, CELLPUTS(SVALUE,'cube1',dim1,dim2), CELLPUTN(NVALUE, 'cube1', dim1,dim2));
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+CUBESETLOGCHANGES('cube1', OldCubeLogChanges);
+#****End: Generated Statements****
+#endregion

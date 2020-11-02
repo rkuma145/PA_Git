@@ -1,0 +1,33 @@
+{
+	"@type":"Hierarchy",
+	"Name":"scott_hier1",
+	"Elements":
+	[
+		{
+			"Name":"Revenue Total",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"plan_chart_of_accounts:Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"plan_chart_of_accounts:COS",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Revenue Total",
+			"ComponentName":"plan_chart_of_accounts:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Revenue Total",
+			"ComponentName":"plan_chart_of_accounts:COS",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

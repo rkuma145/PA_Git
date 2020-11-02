@@ -1,0 +1,27 @@
+{
+	"@type":"Process",
+	"Name":"z_odbo_1",
+	"Code@Code.link":"z_odbo_1.ti",
+	"DataSource":
+	{
+		"Type":"ODBOCube"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"dim1",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"dim2",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}
